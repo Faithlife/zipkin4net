@@ -8,7 +8,6 @@ namespace zipkin4net.Benchmark
         public static void Main(string[] args)
         {
             BenchmarkRunner.Run<JSONSerializerBenchmark>();
-            BenchmarkRunner.Run<ThriftSerializerBenchmark>();
         }
     }
 }
