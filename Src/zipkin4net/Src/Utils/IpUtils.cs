@@ -17,7 +17,7 @@ namespace zipkin4net.Utils
             if (!System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
                 return null;
 
-#if NET_CORE
+#if NETSTANDARD1_4 || NETSTANDARD1_6
             var host = Dns.GetHostEntryAsync(Dns.GetHostName()).Result;
 #else
             var host = Dns.GetHostEntry(Dns.GetHostName());
