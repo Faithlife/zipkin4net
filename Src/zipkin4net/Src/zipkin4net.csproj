@@ -2,12 +2,12 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard1.4;netstandard1.6;net451;net47;netstandard2.0</TargetFrameworks>
     <AssemblyName>zipkin4net</AssemblyName>
-    <PackageId>zipkin4net</PackageId>
-    <Title>zipkin4net</Title>
+    <PackageId>Faithlife.zipkin4net</PackageId>
+    <Title>Faithlife zipkin4net</Title>
     <Authors>Criteo</Authors>
     <Copyright>Criteo</Copyright>
     <Owners>Criteo</Owners>
-    <Description>C# Zipkin Tracer</Description>
+    <Description>Faithlife fork of C# Zipkin Tracer</Description>
     <PackageVersion>1.1.0</PackageVersion>
     <PackageTags>Zipkin;Tracer;Tracing;Criteo</PackageTags>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
@@ -19,8 +19,8 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <PackageTags>Zipkin;Tracer;Tracing;Criteo;zipkin4net</PackageTags>
-    <PackageProjectUrl>https://github.com/openzipkin/zipkin4net</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/openzipkin/zipkin4net/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Faithlife/zipkin4net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Faithlife/zipkin4net/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard1.4' OR '$(TargetFramework)' == 'netstandard1.6' OR '$(TargetFramework)' == 'netstandard2.0'">
     <DefineConstants>$(DefineConstants);NET_CORE</DefineConstants>
