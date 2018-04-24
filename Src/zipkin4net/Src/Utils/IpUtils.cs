@@ -18,7 +18,7 @@ namespace zipkin4net.Utils
                 return null;
 
 #if NETSTANDARD1_4 || NETSTANDARD1_6
-            var host = Dns.GetHostEntryAsync(Dns.GetHostName()).Result;
+            var host = Dns.GetHostEntryAsync(Dns.GetHostName()).GetAwaiter().GetResult();
 #else
             var host = Dns.GetHostEntry(Dns.GetHostName());
 #endif
