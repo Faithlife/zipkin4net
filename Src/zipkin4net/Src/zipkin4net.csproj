@@ -4,11 +4,11 @@
     <AssemblyName>zipkin4net</AssemblyName>
     <PackageId>Faithlife.zipkin4net</PackageId>
     <Title>Faithlife zipkin4net</Title>
-    <Authors>Criteo</Authors>
+    <Authors>Criteo, Faithlife</Authors>
     <Copyright>Criteo</Copyright>
     <Owners>Faithlife</Owners>
     <Description>Faithlife fork of C# Zipkin Tracer</Description>
-    <PackageVersion>1.2.1</PackageVersion>
+    <PackageVersion>1.2.2</PackageVersion>
     <PackageTags>Zipkin;Tracer;Tracing;Criteo</PackageTags>
     <PackageReleaseNotes>zipkin4net 1.2.0 with: new target frameworks; removed Apache.Thrift &amp; Dataflow dependencies; fixed JSON serialization; added embedded PDB.</PackageReleaseNotes>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
